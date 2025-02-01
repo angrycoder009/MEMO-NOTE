@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+ height: 100vh;
+  display: flex;
+  
+}
+.section-1{
+
+ border-right: 1px solid gray;
+ width:18%;   
+}
+.section-2{
+
+   width: 80%;
+}
+.note{
+    display: flex;
+    height: 3rem;
+    width: 99%;
+    align-items: center;
+ 
+    border: 1px solid gray;
+    border-radius: 4px ;
+    gap: 4px;  
+}
+
+.fa-light {
+ 
+}
+
+
+.box-up{
+
+  
+  border-bottom: 1px solid rgb(196, 195, 195) ;
+
+}
+.logo{
+    padding: 18px 30px;
+    font-size: 25px;
+    
+}
+.note{
+padding:5px 10px ;
+  font-size: 12px;  
+  font-weight: lighter;
+
+  
+}
+.section-2{
+  width: 100%; 
+
+}
+.header{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgb(214, 214, 214);
+    align-items: center;
+
+}
+.Searchbar{
+padding: 12px 25px;
+font-family: arial;
+font-size: 15px;
+border-radius: 8px;
+border: 2px solid rgb(206, 201, 201);
+margin-right: 15px;
+background-color: white;
+color: rgb(138, 137, 137);
+}
+.content{
+flex-direction: row;
+   display: flex;
+   height: 90vh;
+   overflow-x: auto; /* Horizontal scrolling */
+   overflow-y: hidden;
+}
+
+.content-1{
+width: 25%;
+
+}
+.content-2{
+   flex: 1;
+   border: 1px solid rgb(170, 169, 169);
+  
+}
+.content-3{
+   width: 25%;
+   background-color: white;
+
+  
+}
+.create-button{
+  padding: 10px 40px;
+ margin-left: 40px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ background-color: rgb(96, 96, 252);
+ border-radius: 10px;
+ color: white;
+ font-size: 15px;
+  border: none;
+}
+.create-note{
+    padding: 20px 22px;
+    border-bottom: 1px solid gray;
+   
+     margin: 10px;
+    
+}
+.create-note span{
+    background-color: rgba(194, 211, 224, 0.911);
+    padding: 2px;
+}
+.create-note:hover{
+    background-color: rgba(216, 224, 230, 0.911);
+    cursor: pointer;
+}
+
+.text-1{
+ padding: 8px ;
+ margin: 10px ;
+ border-bottom: 1px solid rgb(206, 201, 201);
+ line-height: 30px;
+ 
+}
+.tags-1{
+margin-right: 60px;
+
+}
+.tags-2{
+  margin-right: 15px;
+}
+.text-2{
+  height: 70%;
+  width: 100%;
+}
+.save-button{
+  background-color: rgb(78, 78, 250);
+  color: white;
+padding: 12px 15px;
+border-radius: 10px;
+border: none;
+margin-left: 15px;
+}
+.cancel-button{
+  background-color: rgb(231, 229, 229);
+  border-radius: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-left: 8px;
+  color: rgb(107, 107, 107);
+  border: none;
+}
